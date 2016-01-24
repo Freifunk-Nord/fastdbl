@@ -96,6 +96,10 @@
     {
       "pubkey": "36b0d308ecc72ec75399726341fe6bd8c220261278b8bea548e784553f9059ce",
       "comment": "Bridge between Dortmund/Essen/FFRGW FF-UN-Eintrachtstrasse-22"
+    },
+    {
+      "pubkey": "5dc154dba5343e9b8fd34c9910a4926f8ed4d7f0dddc387796b7fdb1e83f2b1c",
+      "comment": "Potential Brige Rheinufer-Aachen, see commit message/FF-DU-Volker-Herren"
     }
   ]
 }
