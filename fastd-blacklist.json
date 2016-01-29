@@ -100,6 +100,10 @@
     {
       "pubkey": "5dc154dba5343e9b8fd34c9910a4926f8ed4d7f0dddc387796b7fdb1e83f2b1c",
       "comment": "Potential Brige Rheinufer-Aachen, see commit message/FF-DU-Volker-Herren"
+    },
+    {
+      "pubkey": "daa49912388dc9b7f2c2efaea3060c922d80398e8a65934671708f3d19930439",
+      "comment": "Potential Brige Rheinufer-Aachen, FF-DU-Volker-Herren again"
     }
   ]
 }
