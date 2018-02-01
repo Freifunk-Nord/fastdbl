@@ -1,8 +1,8 @@
 # fastdbl
 
-ffrl fastd Blacklist
+Freifunk Nord fastd Blacklist
 
-Public keys listed are no longer accepted for connecting to our Networks, as a result of abuse, faulty interconnecting different Networks, and so on
+Public keys listed are no longer needed for connecting to our Networks, as a result of abuse, faulty interconnecting different Networks, and so on we need this blacklist.
 
 Installation:
 
@@ -12,11 +12,11 @@ Installation:
 
 then add 
 
-    */5 * * * * wget -q -O /etc/fastd/fastd-blacklist.json https://raw.githubusercontent.com/ffruhr/fastdbl/master/fastd-blacklist.json
+    */5 * * * * wget -q -O /etc/fastd/fastd-blacklist.json https://raw.githubusercontent.com/Freifunk-Nord/fastdbl/master/fastd-blacklist.json
 
 2 - download the Scipt and make it Xecutable:
 
-    wget -O /etc/fastd/fastd-blacklist.sh https://raw.githubusercontent.com/ffruhr/fastdbl/master/fastd-blacklist.sh
+    wget -O /etc/fastd/fastd-blacklist.sh https://raw.githubusercontent.com/Freifunk-Nord/fastdbl/master/fastd-blacklist.sh
     chmod +x /etc/fastd/fastd-blacklist.sh
 
 3 - Add the following to your fastd.conf:
@@ -47,8 +47,8 @@ cat >>/etc/fastd/fastd-blacklist.sh << EOF
 EOF
 
 chmod +x /etc/fastd/fastd-blacklist.sh
-rm $FASTDPATH/fastd-blacklist.json
-cat >>$FASTDPATH/fastd-blacklist.json << EOF
+rm /etc/fastd/fastd-blacklist.json
+cat >>/etc/fastd/fastd-blacklist.json << EOF
 {
   "peers": 
   [
