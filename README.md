@@ -28,7 +28,9 @@ then add
 4 - restart your fastd and you are ready to go:
 
     /etc/init.d/fastd restart
-    
+
+# Single script to add blacklist
+
 If you want to add this with one script, use these lines:
 
 ```
